@@ -1,0 +1,9 @@
+extern
+node_modules
+tmp
+vendor
+.idea/workspace.xml
+.idea/misc.xml
+kotlin-koans.iml
+idea/modules/kotlin-koans_test.iml
+idea/modules/kotlin-koans_main.iml

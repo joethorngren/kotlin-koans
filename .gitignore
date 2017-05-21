@@ -24,8 +24,6 @@ gradle/wrapper/gradle-wrapper.jar
 gradle/wrapper/gradle-wrapper.properties
 gradlew
 gradlew.bat
-.floo
-.flooignore
 .idea/kotlinc.xml
 .idea/markdown-navigator.xml
 .idea/markdown-navigator/
