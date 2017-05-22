@@ -3,7 +3,7 @@
 .gradle
 build
 local.properties
-forked-k-koans.iml
+Kotlin-Koans.iml
 gradle/
 gradlew
 gradlew.bat
