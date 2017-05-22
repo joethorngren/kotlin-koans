@@ -2,6 +2,5 @@ extern
 node_modules
 tmp
 vendor
-.idea/*
-kotlin-koans.iml
-
+.idea/workspace.xml
+.idea/misc.xml
