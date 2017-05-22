@@ -21,3 +21,4 @@ public class JavaCode1 extends JavaCode {
         return sb.toString();
     }
 }
+
