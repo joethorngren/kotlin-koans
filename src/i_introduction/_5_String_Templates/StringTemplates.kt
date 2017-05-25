@@ -35,4 +35,18 @@ fun todoTask5(): Nothing = TODO(
     documentation = doc5(),
     references = { getPattern(); month })
 
-fun task5(): String = todoTask5()
+// TODO: WHY/WHEN do we need to use braces?
+// TODO: Triple Quotes + Raw Strings + "No need to escape"?
+
+fun task5(): String = """\d{2}\s($month)\s\d{4}"""
+
+
+// Regex:
+// \d == digit (1)
+// \d{2} == any digit followed by any digit
+// . == ANY character
+// Character Classes:
+//      \d == number
+//      \w == word character (A-Z)
+//      \s == any whitespace (tab, space, carriage return, etc.)
+//
