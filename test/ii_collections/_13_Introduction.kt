@@ -7,6 +7,7 @@ import org.junit.Test
 
 class _13_Introduction {
     @Test fun testSetOfCustomers() {
+        println(customers.values.toSet())
         assertEquals(customers.values.toSet(), shop.getSetOfCustomers())
     }
 }

@@ -7,3 +7,4 @@ public class JavaCode9 extends JavaCode {
         char c = ExtensionFunctionsKt.lastChar("abc");
     }
 }
+
