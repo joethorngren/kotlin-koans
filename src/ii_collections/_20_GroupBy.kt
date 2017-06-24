@@ -8,5 +8,14 @@ fun example7() {
 
 fun Shop.groupCustomersByCity(): Map<City, List<Customer>> {
     // Return a map of the customers living in each city
-    todoCollectionTask()
+    var customersByCity = HashMap<City, MutableList<Customer>>()
+    for (customer in customers) {
+        if(customersByCity.containsKey(customer.city)) {
+            customersByCity[customer.city]?.add(customer)
+        } else {
+            customersByCity.put(customer.city, mutableListOf(customer))
+        }
+    }
+
+    return customersByCity
 }

@@ -14,5 +14,5 @@ val Customer.orderedProducts: Set<Product> get() {
 
 val Shop.allOrderedProducts: Set<Product> get() {
     // Return all products that were ordered by at least one customer
-    customers.fla
+    return customers.flatMap { it.orderedProducts }.toSet()
 }

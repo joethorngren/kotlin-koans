@@ -3,7 +3,7 @@
 .gradle
 build
 local.properties
-Kotlin-Koans.iml
+*.iml
 gradle/
 gradlew
 gradlew.bat
