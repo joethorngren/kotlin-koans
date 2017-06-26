@@ -7,6 +7,7 @@ fun example7() {
 }
 
 fun Shop.groupCustomersByCity(): Map<City, List<Customer>> {
+    // TODO: More Kotlin-esque way of doing this...
     // Return a map of the customers living in each city
     var customersByCity = HashMap<City, MutableList<Customer>>()
     for (customer in customers) {
